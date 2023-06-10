@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import com.sun.javafx.scene.control.IntegerField?>
+<VBox alignment="CENTER" spacing="60.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.factorial.HelloController">
+  <padding>
+    <Insets bottom="60.0" left="60.0" right="60.0" top="60.0"/>
+  </padding>
+
+  <TextField fx:id="number"/>
+
+  <Button text="Вычислить" onAction="#onButtonClick"/>
+
+  <TextField fx:id="factorial" editable="false"/>
+</VBox>
